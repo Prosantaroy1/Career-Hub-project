@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header{
+    background-color: #E8E8E8;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1120px;
+    margin:  auto;
+    align-items: baseline;
+    padding-top: 30px;
+
+}
+.company-title{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    color: #1A1919;
+    
+}
+.Link-list{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.link{
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #1A1919;
+     
+}
+.btn-apply{
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 8px;
+    border: 0;
+    padding: 12px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*banner style open*/
+.banner-container{
+    max-width: 1120px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.banner-title h2{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 70px;
+}
+.title-color{
+    color: #7E90FE;
+}
+.banner-title p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.banner-title button{
+    margin-bottom: 50px;
+}
+.banner-img{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.banner-img img{
+    width: 450px;
+    height: 470px;
+    position: relative;
+    bottom: 0px;
+}

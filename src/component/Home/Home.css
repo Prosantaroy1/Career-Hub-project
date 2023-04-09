@@ -1,0 +1,11 @@
+.home-container{
+    max-width: 1120px;
+    margin: auto;
+}
+
+.job-category h3{
+    text-align: center;
+}
+.job-category p{
+    text-align: center;
+}
