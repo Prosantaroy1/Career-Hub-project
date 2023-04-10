@@ -29,7 +29,7 @@ const Header = () => {
                      Explore thousands of job opportunities with all the<br/> information you need.
                      Its your future. Come find it. Manage all<br/> your job application from start to finish.
                     </p>
-                    <button className='btn-apply'>Star Applying</button>
+                    <button className='btn-apply'>Get Started</button>
                 </div>
                 <div className='banner-img'>
                    <img src={logo} alt='banner-logo'/>
@@ -38,8 +38,5 @@ const Header = () => {
         </div>
     );
 };
-/*
- <Link to='/statistics'>Statistics</Link>
-            <Link to='/appliedJobs'>AppliedJobs</Link>
-            <Link to='/blog'>Blog</Link>*/
+
 export default Header;
