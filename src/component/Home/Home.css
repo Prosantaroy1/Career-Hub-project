@@ -3,9 +3,23 @@
     margin: auto;
 }
 
-.job-category h3{
+.job-title{
     text-align: center;
+    color: #1A1919;
+    font-size: 28px;
+    font-weight: 700px;
+    margin-top: 40px;
 }
-.job-category p{
+.job-description{
     text-align: center;
+    color: #1A1919;
+    font-size: 14px;
+    font-weight: 500px;
+    margin-top: 12px;
+}
+.category-div{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 50px;
+    gap: 15px;
 }
