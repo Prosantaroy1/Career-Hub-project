@@ -27,3 +27,9 @@
 .featured-container{
     margin-top: 75px;
 }
+.featured-div{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 24px;
+    margin-top: 40px;
+}

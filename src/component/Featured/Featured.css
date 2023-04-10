@@ -1,0 +1,41 @@
+.feature-container{
+    border: 1px solid #E8E8E8;
+    border-radius: 8px;
+    padding: 16px 18px;
+}
+.post-name{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 33px;
+    color: #474747;
+}
+.company-name{
+    color: #757575;
+}
+.job-time{
+    display: flex;
+    gap: 10px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.job-time h4{
+    border: 1px solid #E8E8E8;
+    color: #7E90FE;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 4px;
+}
+.loca-sala-container{
+    display: flex;
+    gap: 15px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.location{
+    display: flex;
+    gap: 4px;
+}
+.salary{
+    display: flex;
+    gap: 4px;
+}
