@@ -35,7 +35,7 @@ const JobDetails = () => {
                     <div className='part-2-description'>
                       <p>
                         <img src={salary_logo} alt=''/>
-                       <span style={{color: '#1A1919'}}>Salary: </span> {salary}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                      {salary}   <span style={{color: '#1A1919'}}>Salary: </span>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
                       </p>
                       <p className='part-2-p'>
                         <img src={post} alt=''/>
