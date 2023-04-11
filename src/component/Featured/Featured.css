@@ -29,7 +29,7 @@
     display: flex;
     gap: 15px;
     margin-top: 12px;
-    margin-bottom: 12px;
+    margin-bottom: 22px;
 }
 .location{
     display: flex;
@@ -38,4 +38,7 @@
 .salary{
     display: flex;
     gap: 4px;
+}
+.view-btn{
+    text-decoration: none;
 }

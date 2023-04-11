@@ -1,8 +1,10 @@
 import React from 'react';
 import './Featured.css'
+import { Link } from 'react-router-dom';
 
 const Featured = ({feature}) => {
-    const{post_name, company, image, location, job_time, salary,salary_logo, location_logo} = feature;
+    const{id, post_name, company, image, location, job_time, salary,salary_logo, location_logo} = feature;
+
     return (
         <div className='feature-container'>
             <img src={image} alt='company-logo'/>
@@ -22,7 +24,7 @@ const Featured = ({feature}) => {
                   <p>{salary}</p>
                </div>
             </div>
-            <button className='btn-apply'>View Details</button>
+            <Link to={`/feature/${id}`} className='btn-apply view-btn'>View Details</Link>
         </div>
     );
 };

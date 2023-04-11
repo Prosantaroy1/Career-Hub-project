@@ -35,6 +35,7 @@ const Header = () => {
                    <img src={logo} alt='banner-logo'/>
                 </div>
             </div>
+           
         </div>
     );
 };

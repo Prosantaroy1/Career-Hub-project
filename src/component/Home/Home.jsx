@@ -12,7 +12,7 @@ const Home = () => {
         .then(res => res.json())
         .then(data => setCard(data))
     },[])
-    console.log(card);
+
     return (
         <div className='home-container'>
             <div className='job-category'>
@@ -23,7 +23,7 @@ const Home = () => {
                </p>
                <div className='category-div'>
                  {
-                    categorys.map(category=><Category
+                    categorys.map(category=> <Category
                      key={category.id}
                      category={category}
                     ></Category>)
