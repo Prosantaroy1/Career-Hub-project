@@ -39,7 +39,7 @@ const JobDetails = () => {
                       </p>
                       <p className='part-2-p'>
                         <img src={post} alt=''/>
-                        <span style={{color: '#1A1919'}}>Job Title: </span> {post_name}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                        <span style={{color: '#1A1919'}}>Job-Title: </span> {post_name}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
                       </p>
                     </div>
                 <h4 className='contact-title'>Contact Information</h4>

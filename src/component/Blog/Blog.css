@@ -1,0 +1,16 @@
+.blog-container{
+    max-width: 1120px;
+    margin: 20px auto;
+    
+}
+.blog-container h3{
+    font-size: 20px;
+    font-weight: 800;
+    color: #1b1b1b;
+}
+.blog-container p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #7e7a7a;
+    line-height: 30px;
+}
