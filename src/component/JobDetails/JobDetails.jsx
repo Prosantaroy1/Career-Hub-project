@@ -4,6 +4,8 @@ import { useLoaderData, useParams } from 'react-router-dom';
 import post from '../../assets/Icons/Frame-1.png';
 import phones from '../../assets/Icons/Frame-2.png';
 import emails from '../../assets/Icons/Frame-3.png'
+import { AddDb } from '../../utilities/fakedb';
+
 
 const JobDetails = () => {
     const {id} =useParams();
@@ -15,10 +17,16 @@ const JobDetails = () => {
             let match=jobs.find(job=> job.id==id);
             //console.log(match)
             setData(match);
+           
         }
     },[])
+    const handleApplyNow = cart =>{
+       AddDb(cart)
+    }
+
     const{address, description, responsibilities, salary_logo,location_logo,
-         Experiences, email, phone,Requirements,post_name,salary} = data;
+         Experiences, email, phone,Requirements,post_name,salary,} = data;
+
     return (
         <div className='job-details-container'>
              <h3>Job Details</h3>
@@ -58,7 +66,7 @@ const JobDetails = () => {
                        <span style={{color: '#1A1919'}}>Adress: </span> {address}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
                       </p>
                     </div>
-                    <button className='apply-btn'>Apply Now</button>
+                    <button onClick={()=> handleApplyNow(data)}  className='apply-btn'>Apply Now</button>
                 </div>
              </div>
         </div>

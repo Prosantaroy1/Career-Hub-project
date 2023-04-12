@@ -1,0 +1,19 @@
+.applied-container{
+    max-width: 1120px;
+    margin: 60px auto;
+}
+.applied-container h3{
+    background-color: #F4F4F4;
+    color: #1A1919;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 8px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.applyjob-container{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}

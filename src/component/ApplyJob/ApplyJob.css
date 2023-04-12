@@ -1,0 +1,55 @@
+.applyjobs-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #1A1919;
+    border: 1px solid #D1D1D1;
+    padding: 14px;
+    border-radius: 8px;
+}
+.ap-div-1{
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    align-items: center;
+}
+.company-logo{
+    width: 200px;
+    height: 200px;
+    background: #F4F4F4;
+    border-radius: 8px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.ap-div-1 .company-img{
+    width: 145.86px;
+    height: 50px;
+}
+.apply-details span{
+    color: #1A1919;
+}
+.apply-details p{
+    color: #1A1919;
+}
+.job-time p{
+    border: 1px solid #837878;
+    padding: 6px 8px;
+    border-radius: 8px;
+}
+.sl-lc-container{
+    display: flex;
+    gap: 10px;
+}
+.sl-lc-container .sl-lc{
+    display: flex;
+    justify-content: center;
+}
+.btn-view{
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 8px;
+    border: 0;
+    padding: 12px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
