@@ -3,7 +3,7 @@
         "id": "1",
         "post_name": "Technical Database Engineer",
         "company": "Google LLC",
-        "image": "../src/assets/All Images/google-1-1 1.png",
+        "image": "./assets/All Images/google-1-1 1.png",
         "location": "Dhaka, Bangladesh",
         "job_time": ["Full-Time","Remote"],
         "salary": "Salary : 100K - 150K",
@@ -14,15 +14,15 @@
         "email": "prosanta@gamil.com",
         "address": "thakurgaon road, Dhaka-1002, Bangladesh",
         "Requirements": "Bachelor degree to complete any reputational university.",
-        "salary_logo": "../src/assets/Icons/Frame.png",
-        "location_logo": "../src/assets/Icons/Frame-4.png"
+        "salary_logo": "./assets/Icons/Frame.png",
+        "location_logo": "./assets/Icons/Frame-4.png"
         
     },
     {
         "id": "2",
         "post_name": "Senior Product Designer",
         "company": "Netflix",
-        "image": "../src/assets/All Images/netflix-4 1.png",
+        "image": "./assets/All Images/netflix-4 1.png",
         "location": "Dhaka, Bangladesh",
         "job_time": ["Full-Time","Remote"],
         "salary": "Salary : 80K - 120K",
@@ -33,14 +33,14 @@
         "email": "shamim@gamil.com",
         "address": "dinajpur road, Dhaka-1002, Bangladesh",
         "Requirements": "Bachelor degree to complete any reputational university.",
-        "salary_logo": "../src/assets/Icons/Frame.png",
-        "location_logo": "../src/assets/Icons/Frame-4.png"
+        "salary_logo": "./assets/Icons/Frame.png",
+        "location_logo": "./assets/Icons/Frame-4.png"
     },
     {
         "id": "3",
         "post_name": "Software Engineer",
         "company": "Tesla",
-        "image": "../src/assets/All Images/tesla-9 1.png",
+        "image": "./assets/All Images/tesla-9 1.png",
         "location": "Dhaka, Bangladesh",
         "job_time": ["Full-Time","Remote"],
         "salary": "Salary : 180K - 200K",
@@ -51,14 +51,14 @@
         "email": "info@gamil.com",
         "address": "Borisal#32 road, Dhaka-1002, Bangladesh",
         "Requirements": "Bachelor degree to complete any reputational university.",
-        "salary_logo": "../src/assets/Icons/Frame.png",
-        "location_logo": "../src/assets/Icons/Frame-4.png"
+        "salary_logo": "./assets/Icons/Frame.png",
+        "location_logo": "./assets/Icons/Frame-4.png"
     },
     {
         "id": "4",
         "post_name": "Technical Database Engineer",
         "company": "Google LLC",
-        "image": "../src/assets/All Images/google-1-1 1.png",
+        "image": "./assets/All Images/google-1-1 1.png",
         "location": "Dhaka, Bangladesh",
         "job_time": ["Full-Time","Remote"],
         "salary": "Salary : 100K - 150K",
@@ -69,7 +69,7 @@
         "email": "prosanta@gamil.com",
         "address": "thakurgaon road, Dhaka-1002, Bangladesh",
         "Requirements": "Bachelor degree to complete any reputational university.",
-        "salary_logo": "../src/assets/Icons/Frame.png",
-        "location_logo": "../src/assets/Icons/Frame-4.png"
+        "salary_logo": "./assets/Icons/Frame.png",
+        "location_logo": "./assets/Icons/Frame-4.png"
     }
 ]
