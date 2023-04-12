@@ -3,6 +3,9 @@ import './Home.css'
 import { useLoaderData } from 'react-router-dom';
 import Category from '../Category/Category';
 import Featured from '../Featured/Featured';
+import logo from '../../assets/All Images/P3OLGJ1 copy 1.png'
+
+
 const Home = () => {
     const categorys = useLoaderData();
     //console.log(categorys);
@@ -14,7 +17,26 @@ const Home = () => {
     },[])
 
     return (
+      <div>
+         <div className='banner'>
+           <div className='banner-container'>
+                <div className='banner-title'>
+                    <h2>
+                        One Step<br/> Closer To Your<br/><span className='title-color'>Dream Job</span> 
+                    </h2>
+                    <p>
+                     Explore thousands of job opportunities with all the<br/> information you need.
+                     Its your future. Come find it. Manage all<br/> your job application from start to finish.
+                    </p>
+                    <button className='btn-apply'>Get Started</button>
+                </div>
+                <div className='banner-img'>
+                   <img src={logo} alt='banner-logo'/>
+                </div>
+            </div>
+         </div>
         <div className='home-container'>
+
             <div className='job-category'>
                <h3 className='job-title'>Job Category List</h3>
                <p className='job-description'>
@@ -50,6 +72,7 @@ const Home = () => {
                
             </div>
         </div>
+      </div>
     );
 };
 

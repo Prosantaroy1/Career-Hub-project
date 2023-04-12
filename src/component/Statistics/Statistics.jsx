@@ -38,6 +38,10 @@ const Statistics = () => {
         },
       ];
     return (
+      <div>
+        <div className='news'> 
+                <h1>Assienment Total Mark </h1>
+            </div>
         <div className='mark-chat'>
             <h3 className='chat-title'>Assignment Analytics:</h3>
             <LineChart
@@ -53,6 +57,7 @@ const Statistics = () => {
             </LineChart>
             
         </div>
+      </div>
     );
 };
 

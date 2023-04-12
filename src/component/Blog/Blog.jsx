@@ -3,7 +3,11 @@ import './Blog.css'
 
 const Blog = () => {
     return (
-        <div className='blog-container'>
+        <div>
+               <div className='news'> 
+                <h1>Blog Post</h1>
+            </div>
+         <div className='blog-container'>
             <div>
                 <h3>When Use Contacts API?</h3>
                 <p>
@@ -35,6 +39,7 @@ const Blog = () => {
                 and useMemo will only recompute the memoized value when one of the inputs has changed.
                 </p>
             </div>
+         </div>
         </div>
     );
 };

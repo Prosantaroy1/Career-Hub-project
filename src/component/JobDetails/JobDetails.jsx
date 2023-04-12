@@ -28,8 +28,11 @@ const JobDetails = () => {
          Experiences, email, phone,Requirements,post_name,salary,} = data;
 
     return (
+      <div>
+        <div className='news'> 
+                <h1>Job Details</h1>
+          </div>
         <div className='job-details-container'>
-             <h3>Job Details</h3>
              <div className='job-details'>
                 <div className='details-part-1'>
                     <p><span className='part-1'>Job Description: </span> {description}</p>
@@ -70,6 +73,7 @@ const JobDetails = () => {
                 </div>
              </div>
         </div>
+      </div>
     );
 };
 

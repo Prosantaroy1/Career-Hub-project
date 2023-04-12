@@ -2,6 +2,10 @@
     max-width: 1120px;
     margin: 60px auto;
 }
+.filter{
+    display: flex;
+    justify-content: right;
+}
 .applied-container h3{
     background-color: #F4F4F4;
     color: #1A1919;
@@ -11,6 +15,7 @@
     border-radius: 8px;
     display: inline-block;
     margin-bottom: 10px;
+  
 }
 .applyjob-container{
     display: flex;

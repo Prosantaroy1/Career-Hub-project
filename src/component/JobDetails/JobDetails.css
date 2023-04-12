@@ -2,10 +2,27 @@
     max-width: 1120px;
     margin: auto;
 }
+.news {
+     background-image: url('../../assets/All Images/Vector.png'),url('../../assets/All Images/Vector-1.png');
+     background-repeat: no-repeat;
+     padding-bottom:174px;;
+     /* background-size: cover; */
+     background-position: left bottom ,right top;
+     padding-top: 30px;
+     background-color:  #F9F9FF;
+   
+   
+}
+.news h1{
+    text-align: center;
+    padding-top: 40px;
+}
+
 .job-details{
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 15px;
+    margin-top: 20px;
 }
 .job-details-container h3{
     text-align: center;

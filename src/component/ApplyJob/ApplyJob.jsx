@@ -6,7 +6,8 @@ const ApplyJob = ({applyjob}) => {
     const{salary_logo,location_logo,company,job_time,location,
          post_name,salary, image} = applyjob;
     return (
-        <div className='applyjobs-container'>
+        
+            <div className='applyjobs-container'>
             <div className='ap-div-1'>
                 <div className='company-logo'>
                   <img className='company-img' src={image} alt='' />
@@ -34,6 +35,7 @@ const ApplyJob = ({applyjob}) => {
               <button className='btn-view'>View Details</button>
             </div>
         </div>
+       
     );
 };
 
